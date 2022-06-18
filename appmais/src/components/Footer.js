@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
 
 import { Navbar, Container, Nav, Button, NavDropdown } from 'react-bootstrap'
+
+import SocialFollow from './SocialFollow'
 
 class Footer extends Component{
 
@@ -22,6 +23,7 @@ class Footer extends Component{
                     </Navbar.Collapse>
 
                     <Navbar.Collapse className="justify-content-end">
+                    <SocialFollow />
                         <Navbar.Text>
                         </Navbar.Text>
                     </Navbar.Collapse>
