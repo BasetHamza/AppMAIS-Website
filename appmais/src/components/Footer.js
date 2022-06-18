@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import { Navbar, Container, Nav, Button, NavDropdown } from 'react-bootstrap'
-import { SocialIcon } from 'react-social-icons'
 
 class Footer extends Component{
 
@@ -24,7 +23,6 @@ class Footer extends Component{
 
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-                        <SocialIcon url="https://twitter.com/jaketrent" />
                         </Navbar.Text>
                     </Navbar.Collapse>
 
