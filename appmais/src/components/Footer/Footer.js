@@ -23,9 +23,7 @@ class Footer extends Component{
                     </Navbar.Collapse>
 
                     <Navbar.Collapse className="justify-content-end">
-                    <SocialFollow />
-                        <Navbar.Text>
-                        </Navbar.Text>
+                        <SocialFollow />
                     </Navbar.Collapse>
 
                     </Container>

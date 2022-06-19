@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { BrowserRouter as Navigate, Route, Router, Routes } from 'react-router-dom'
 
 import NavigationBar from './NavigationBar'
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 import HomePage from '../pages/HomePage'
 import BeeLive from '../pages/BeeLive'
 
