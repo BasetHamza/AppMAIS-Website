@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-import { Card, Row, Button } from 'react-bootstrap'
+import { ReactComponent as MySvgFile } from "../assets/img/svg/bee.svg"
+
+import { Card, Row, Button, ImgOverlay } from 'react-bootstrap'
 
 class HomePage extends Component {
     render() {
@@ -8,15 +10,15 @@ class HomePage extends Component {
             <div>
                 <div className='mt-5'>
                     <Row className="justify-content-md-center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                    <Card className="bg-dark text-white">
+                    <Card.Img src="bee" alt="Card image" />
+                        <Card.ImgOverlay>
+                            <Card.Title>Card title</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
+                        </Card.ImgOverlay>
                     </Card>
                     </Row>
                 </div>
