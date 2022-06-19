@@ -4,29 +4,22 @@ import { BrowserRouter as Navigate, Route, Router, Routes } from 'react-router-d
 import NavigationBar from './NavigationBar'
 import Footer from './Footer/Footer'
 import HomePage from '../pages/HomePage'
+import BeeStream from "../pages/BeeStream"
 import BeeLive from '../pages/BeeLive'
 
 class App extends Component {
     
     render () {
-
         return (
-                <div>
-                    <NavigationBar />
-                    {/* <HomePage/> */}
-                    <BeeLive />
-                    {/* <Router>
-                        <Routes>
-                            <Route
-                                exact
-                                path='/'
-                                name="Home Page"
-                                component={HomePage}
-                            />
-                        </Routes>
-                    </Router> */}
-                    <Footer />
-                </div>
+            <div>
+                <NavigationBar />
+                    <Routes>
+                        <Route path='/' element = {<HomePage />}/>
+                        <Route path='/beestream' element = {<BeeStream />}/>
+                        <Route path='/beelive' element = {<BeeLive />}/>
+                    </Routes>
+                <Footer />
+            </div>
         )
     }
 }

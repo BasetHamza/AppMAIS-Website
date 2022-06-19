@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { Navbar, Container, Nav, Button, NavDropdown } from 'react-bootstrap'
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 
 class NavigationBar extends Component{
 
@@ -11,28 +11,30 @@ class NavigationBar extends Component{
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container>
 
-                    <Navbar.Brand href="#home">AppMAIS</Navbar.Brand>
+                    <Navbar.Brand  as={NavLink} to='/'>AppMAIS</Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
 
-                        <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link as={NavLink} to='/'>Home</Nav.Link>
 
-                        <Nav.Link href="#team">Research Team</Nav.Link>
+                            <NavDropdown title="Research" id="collasible-nav-dropdown">
+                                <NavDropdown.Item as={NavLink} to='/research/beevee'>BeeVee</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/beephon'>BeePhon</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/beeviz'>BeeViz</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/gene'>BeeGene</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item as={NavLink} to='/research/pub'>Publications</NavDropdown.Item>
+                            </NavDropdown>
 
-                        <NavDropdown title="Research" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#research/bevee">BeeVee</NavDropdown.Item>
-                            <NavDropdown.Item href="#research/beephon">BeePhon</NavDropdown.Item>
-                            <NavDropdown.Item href="#research/beeviz">BeeViz</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#research/pubs">Publications</NavDropdown.Item>
-                        </NavDropdown>
+                            <NavDropdown title="BeeStream" id="collasible-nav-dropdown">
+                                <NavDropdown.Item as={NavLink} to='/research/live'>Live Stream</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/archive'>Archive</NavDropdown.Item>
+                            </NavDropdown>
 
-                        <Nav.Link href="#beestream">BeeStream</Nav.Link>
-
-                        <Nav.Link href="#beelive">BeeLive</Nav.Link>
+                            <Nav.Link as={NavLink} to='/beelive'>BeeLive</Nav.Link>
 
                         </Nav>
 
