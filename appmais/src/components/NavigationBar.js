@@ -20,6 +20,8 @@ class NavigationBar extends Component{
 
                         <Nav.Link href="#home">Home</Nav.Link>
 
+                        <Nav.Link href="#team">Research Team</Nav.Link>
+
                         <NavDropdown title="Research" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#research/bevee">BeeVee</NavDropdown.Item>
                             <NavDropdown.Item href="#research/beephon">BeePhon</NavDropdown.Item>
