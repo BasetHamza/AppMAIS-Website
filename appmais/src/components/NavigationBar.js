@@ -36,6 +36,9 @@ class NavigationBar extends Component{
 
                             <Nav.Link as={NavLink} to='/beelive'>BeeLive</Nav.Link>
 
+                            {/* Behind a login wall */}
+                            <Nav.Link as={NavLink} to='/note'>Note</Nav.Link>
+
                         </Nav>
 
                         {/* The following should show when we are logged in. It should show logged in as and the logout button */}

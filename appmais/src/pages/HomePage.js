@@ -13,10 +13,9 @@ class HomePage extends Component {
                     <Card className="bg-dark text-white">
                     <Card.Img src="bee" alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Welcome to AppMAIS</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                                Appalachian State Multipurpose Apiary Informatics Systems
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
