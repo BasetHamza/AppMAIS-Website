@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Card, Row, Col, Button, ImgOverlay, Container, Nav, Figure, Image} from 'react-bootstrap'
+import { Row, Container} from 'react-bootstrap'
 
 class Note extends Component{
 

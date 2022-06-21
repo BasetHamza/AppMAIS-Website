@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import { Card, Row, Col, Button, ImgOverlay, Container, Nav, Figure, Image} from 'react-bootstrap'
-
 import Intro from '../components/Homepage/Intro'
 import Team from '../components/Homepage/Team'
 

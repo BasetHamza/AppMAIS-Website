@@ -1,6 +1,6 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 
-import { Card, Row, Col, Button, ButtonGroup, Container, Accordion } from 'react-bootstrap'
+import { Card, Row, Col, Button, Container, Accordion } from 'react-bootstrap'
 
 
 class Publications extends Component {

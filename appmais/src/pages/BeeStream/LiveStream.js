@@ -1,6 +1,4 @@
-import React, { Component, PropTypes } from 'react'
-
-import { Card, Row, Button } from 'react-bootstrap'
+import React, { Component } from 'react'
 import IframeResizer from 'iframe-resizer-react'
 
 class BeeStream extends Component {
