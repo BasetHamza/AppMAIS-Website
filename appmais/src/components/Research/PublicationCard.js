@@ -1,0 +1,1 @@
+// This component should be used in the future to dynamically create publications card from data

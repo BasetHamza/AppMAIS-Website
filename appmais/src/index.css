@@ -94,3 +94,12 @@ a:link {
 .card-container {
   justify-content: center;
 }
+
+
+.publication-container {
+  width: 50rem;
+}
+
+div .publication-card {
+  width: 50rem;
+}

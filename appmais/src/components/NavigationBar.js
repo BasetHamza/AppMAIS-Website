@@ -29,7 +29,7 @@ class NavigationBar extends Component{
                                 <NavDropdown.Item as={NavLink} to='/research/beeviz'>BeeViz</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/gene'>BeeGene</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={NavLink} to='/research/pub'>Publications</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/pubs'>Publications</NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown title="BeeStream" id="collasible-nav-dropdown">
