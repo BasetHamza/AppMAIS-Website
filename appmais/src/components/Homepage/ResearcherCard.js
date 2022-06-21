@@ -1,0 +1,1 @@
+// This component will be used to dynamically render the researchers cards from the _DATA.js files

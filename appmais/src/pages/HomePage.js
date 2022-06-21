@@ -10,8 +10,10 @@ class HomePage extends Component {
         return (
             <div className="homepage">
                 <Intro />
-                
+                <hr/>
                 <Team />
+                <hr/>
+                
             </div>
         )
     }

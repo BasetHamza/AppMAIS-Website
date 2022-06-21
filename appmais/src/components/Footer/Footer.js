@@ -9,6 +9,7 @@ class Footer extends Component{
     render(){
         return(
             <div>
+                <div class="clear"></div>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
                     <Container>
 
