@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AppMAIS-website/static/css/main.85207d77.css",
+    "main.js": "/AppMAIS-website/static/js/main.ebeb090c.js",
+    "static/media/main-bee.png": "/AppMAIS-website/static/media/main-bee.d76d92d3dd124c3ac268.png",
+    "static/media/drT.jpg": "/AppMAIS-website/static/media/drT.d3121047cbe4d1839f7c.jpg",
+    "static/media/schialvo.jpg": "/AppMAIS-website/static/media/schialvo.5dec21d4b3679c04579e.jpg",
+    "static/media/chris.png": "/AppMAIS-website/static/media/chris.2bdb80c79917f5eb0a55.png",
+    "static/media/feng.jpg": "/AppMAIS-website/static/media/feng.b839d3185fd399223cfd.jpg",
+    "index.html": "/AppMAIS-website/index.html",
+    "main.85207d77.css.map": "/AppMAIS-website/static/css/main.85207d77.css.map",
+    "main.ebeb090c.js.map": "/AppMAIS-website/static/js/main.ebeb090c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85207d77.css",
+    "static/js/main.ebeb090c.js"
+  ]
+}
