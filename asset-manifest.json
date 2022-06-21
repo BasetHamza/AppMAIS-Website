@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/appmais/static/css/main.591870f2.css",
-    "main.js": "/appmais/static/js/main.72b92424.js",
-    "static/media/main-bee.png": "/appmais/static/media/main-bee.d76d92d3dd124c3ac268.png",
-    "static/media/drT.jpg": "/appmais/static/media/drT.d3121047cbe4d1839f7c.jpg",
-    "static/media/schialvo.jpg": "/appmais/static/media/schialvo.5dec21d4b3679c04579e.jpg",
-    "static/media/chris.png": "/appmais/static/media/chris.2bdb80c79917f5eb0a55.png",
-    "static/media/feng.jpg": "/appmais/static/media/feng.b839d3185fd399223cfd.jpg",
-    "index.html": "/appmais/index.html",
-    "main.591870f2.css.map": "/appmais/static/css/main.591870f2.css.map",
-    "main.72b92424.js.map": "/appmais/static/js/main.72b92424.js.map"
+    "main.css": "/AppMAIS-Website/static/css/main.0a968f85.css",
+    "main.js": "/AppMAIS-Website/static/js/main.506225b4.js",
+    "static/media/main-bee.png": "/AppMAIS-Website/static/media/main-bee.d76d92d3dd124c3ac268.png",
+    "static/media/drT.jpg": "/AppMAIS-Website/static/media/drT.d3121047cbe4d1839f7c.jpg",
+    "static/media/schialvo.jpg": "/AppMAIS-Website/static/media/schialvo.5dec21d4b3679c04579e.jpg",
+    "static/media/chris.png": "/AppMAIS-Website/static/media/chris.2bdb80c79917f5eb0a55.png",
+    "static/media/feng.jpg": "/AppMAIS-Website/static/media/feng.b839d3185fd399223cfd.jpg",
+    "index.html": "/AppMAIS-Website/index.html",
+    "main.0a968f85.css.map": "/AppMAIS-Website/static/css/main.0a968f85.css.map",
+    "main.506225b4.js.map": "/AppMAIS-Website/static/js/main.506225b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.591870f2.css",
-    "static/js/main.72b92424.js"
+    "static/css/main.0a968f85.css",
+    "static/js/main.506225b4.js"
   ]
 }
