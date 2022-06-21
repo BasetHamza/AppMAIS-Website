@@ -12,7 +12,7 @@ class Overview extends Component{
                         <h1 class="display-1">AppMAIS</h1>
                     </Row>
                     <Row className='text-center mt-5'>
-                        <h3 class="display-3">Page IS UNDER CONSTRUCTION</h3>
+                        <h3 class="display-3">PAGE IS UNDER CONSTRUCTION</h3>
                     </Row>
                     <Row>
                         <h4 class="display-4 text-center mt-5">BEE PATIENT</h4>
