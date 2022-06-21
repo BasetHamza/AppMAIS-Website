@@ -21,20 +21,20 @@ class NavigationBar extends Component{
                             <Nav.Link as={NavLink} to='/'>Home</Nav.Link>
 
                             <NavDropdown title="Research" id="collasible-nav-dropdown"  >
-                                <NavDropdown.Item as={NavLink} to='/research/beevee'>Overview</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Item as={NavLink} to='/research/overview'>Overview</NavDropdown.Item>
+                                {/* <NavDropdown.Divider />
                                 <NavDropdown.Item as={NavLink} to='/research/beevee'>BeeVee</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/beephon'>BeePhon</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/beelive'>BeeLive</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/beeviz'>BeeViz</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/gene'>BeeGene</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider /> */}
                                 <NavDropdown.Item as={NavLink} to='/research/pubs'>Publications</NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown title="BeeStream" id="collasible-nav-dropdown">
-                                <NavDropdown.Item as={NavLink} to='/research/live'>Live Stream</NavDropdown.Item>
-                                <NavDropdown.Item as={NavLink} to='/research/archive'>Archive</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/beestream/live'>Live Stream</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/beestream/archive'>Archive</NavDropdown.Item>
                             </NavDropdown>
 
                             <Nav.Link as={NavLink} to='/dashboard'>Dashboard</Nav.Link>

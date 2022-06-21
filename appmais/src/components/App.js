@@ -7,6 +7,8 @@ import HomePage from '../pages/HomePage'
 import BeeStream from "../pages/BeeStream/LiveStream"
 import Dashboard from '../pages/Dashboard'
 import Publications from '../pages/Research/Publications'
+import Archive from '../pages/BeeStream/Archive'
+import Overview from '../pages/Research/Overview'
 
 class App extends Component {
 
@@ -16,9 +18,14 @@ class App extends Component {
                 <NavigationBar />
                     <Routes>
                         <Route path='/' element = {<HomePage />}/>
-                        <Route path='/beestream' element = {<BeeStream />}/>
-                        <Route path='/dashboard' element = {<Dashboard />}/>
+
+                        <Route path='/research/overview' element = {<Overview />}/>
                         <Route path='/research/pubs' element = {<Publications />}/>
+
+                        <Route path='/beestream/live' element = {<BeeStream />}/>
+                        <Route path='/beestream/archive' element = {<Archive />}/>
+
+                        <Route path='/dashboard' element = {<Dashboard />}/>
                         
                     </Routes>
                 <Footer />

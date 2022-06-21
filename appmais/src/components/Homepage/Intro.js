@@ -26,7 +26,7 @@ class Intro extends Component{
                     <Row>
                         <Col md={{ span: 9, offset: 1 }} className='d-flex justify-content-md-center'>                        
                             <p>
-                                AppMAIS is a multidisciplinary project that aims to investigate the health, 
+                                AppMAIS is a interdisciplinary project that aims to investigate the health, 
                                 development and genomic diversity of honeybee hives in North Carolina to better
                                 understand and optimally prevent the honeybee colony collapse disorder (CCD).
                             </p>

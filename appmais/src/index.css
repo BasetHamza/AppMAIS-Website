@@ -36,6 +36,10 @@ ul li{
   background-position: center;
 }
 
+.blank-page {
+  min-height: 620px;
+}
+
 /* Horizontal breaker for sections in the mainpage */
 
 hr {
