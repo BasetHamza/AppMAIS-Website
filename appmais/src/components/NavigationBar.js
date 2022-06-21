@@ -20,9 +20,12 @@ class NavigationBar extends Component{
 
                             <Nav.Link as={NavLink} to='/'>Home</Nav.Link>
 
-                            <NavDropdown title="Research" id="collasible-nav-dropdown">
+                            <NavDropdown title="Research" id="collasible-nav-dropdown"  >
+                                <NavDropdown.Item as={NavLink} to='/research/beevee'>Overview</NavDropdown.Item>
+                                <NavDropdown.Divider />
                                 <NavDropdown.Item as={NavLink} to='/research/beevee'>BeeVee</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/beephon'>BeePhon</NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to='/research/beelive'>BeeLive</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/beeviz'>BeeViz</NavDropdown.Item>
                                 <NavDropdown.Item as={NavLink} to='/research/gene'>BeeGene</NavDropdown.Item>
                                 <NavDropdown.Divider />
@@ -34,7 +37,7 @@ class NavigationBar extends Component{
                                 <NavDropdown.Item as={NavLink} to='/research/archive'>Archive</NavDropdown.Item>
                             </NavDropdown>
 
-                            <Nav.Link as={NavLink} to='/beelive'>BeeLive</Nav.Link>
+                            <Nav.Link as={NavLink} to='/dashboard'>Dashboard</Nav.Link>
 
                             {/* Behind a login wall */}
                             <Nav.Link as={NavLink} to='/note'>Note</Nav.Link>

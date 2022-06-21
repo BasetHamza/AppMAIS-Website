@@ -5,7 +5,7 @@ import NavigationBar from './NavigationBar'
 import Footer from './Footer/Footer'
 import HomePage from '../pages/HomePage'
 import BeeStream from "../pages/BeeStream/LiveStream"
-import BeeLive from '../pages/BeeLive'
+import Dashboard from '../pages/Dashboard'
 
 class App extends Component {
 
@@ -16,7 +16,7 @@ class App extends Component {
                     <Routes>
                         <Route path='/' element = {<HomePage />}/>
                         <Route path='/beestream' element = {<BeeStream />}/>
-                        <Route path='/beelive' element = {<BeeLive />}/>
+                        <Route path='/dashboard' element = {<Dashboard />}/>
                     </Routes>
                 <Footer />
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Card, Row, Col, Button, ImgOverlay, Container, Nav, Figure, Image, CardGroup} from 'react-bootstrap'
+import { Card, Row, Col, Button, Container} from 'react-bootstrap'
 
 
 import Rahman from '../../assets/img/images/people/drT.jpg'
@@ -37,13 +37,13 @@ class Team extends Component{
 
                 <Container>
                     <Row>
-                        <Col sm >
+                        <Col sm className='d-flex justify-content-md-center'>
                             <Card className='researcher-card text-center rounded' >
                                 {/* <Card.Img className='rounded-circle card-img-top' variant="top" src={Rahman}/> */}
                                 <Card.Body>
                                     <Container className='d-flex justify-content-md-center'>
                                         <div class="avatar-big">
-                                            <img class="avatar-img rounded-circle" src={Rahman} />
+                                            <img class="avatar-img rounded-circle" src={Rahman} alt='Rahman Tashakkori'/>
                                         </div>
                                     </Container>
                                     <Card.Title className='mt-4'>Dr. Rahman Tashakkori, Ph.D.</Card.Title>
@@ -53,18 +53,18 @@ class Team extends Component{
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                <Button variant="outline-dark"><a href='https://cs.appstate.edu/~rt/' target='_blank'>Read More</a></Button>
+                                <Button variant="outline-dark"><a href='https://cs.appstate.edu/~rt/' target='_blank' rel="noreferrer">Read More</a></Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
 
-                        <Col sm >
+                        <Col sm className='d-flex justify-content-md-center'>
                             <Card className='researcher-card text-center rounded' >
                                 {/* <Card.Img className='rounded-circle card-img-top' variant="top" src={Rahman}/> */}
                                 <Card.Body>
                                     <Container className='d-flex justify-content-md-center'>
                                         <div class="avatar-big">
-                                            <img class="avatar-img rounded-circle" src={Mitch} />
+                                            <img class="avatar-img rounded-circle" src={Mitch} alt='Mitch Parry'/>
                                         </div>
                                     </Container>
 
@@ -75,19 +75,19 @@ class Team extends Component{
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-dark"><a href='https://cs.appstate.edu/~rmp/' target='_blank'>Read More</a></Button>
+                                    <Button variant="outline-dark"><a href='https://cs.appstate.edu/~rmp/' target='_blank' rel="noreferrer">Read More</a></Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
 
 
-                        <Col sm >
+                        <Col sm className='d-flex justify-content-md-center'>
                             <Card className='researcher-card text-center rounded' >
                                 {/* <Card.Img className='rounded-circle card-img-top' variant="top" src={Rahman}/> */}
                                 <Card.Body>
                                     <Container className='d-flex justify-content-md-center'>
                                         <div class="avatar-big">
-                                            <img class="avatar-img rounded-circle" src={Schialvo} />
+                                            <img class="avatar-img rounded-circle" src={Schialvo} alt = 'Clare Chialvo'/>
                                         </div>
                                     </Container>
                                                                         
@@ -98,18 +98,18 @@ class Team extends Component{
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-dark"><a href='https://sites.google.com/appstate.edu/scott-chialvo-lab' target='_blank'>Read More</a></Button>
+                                    <Button variant="outline-dark"><a href='https://sites.google.com/appstate.edu/scott-chialvo-lab' target='_blank' rel="noreferrer">Read More</a></Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
 
-                        <Col sm >
+                        <Col sm className='d-flex justify-content-md-center' >
                             <Card className='researcher-card text-center rounded' >
                                 {/* <Card.Img className='rounded-circle card-img-top' variant="top" src={Rahman}/> */}
                                 <Card.Body>
                                     <Container className='d-flex justify-content-md-center'>
                                         <div class="avatar-big">
-                                            <img class="avatar-img rounded-circle" src={Hamza} />
+                                            <img class="avatar-img rounded-circle" src={Hamza} alt='Abdelbaset Hamza'/>
                                         </div>
                                         </Container>
                                     <Card.Title className='mt-4'>Dr. Abdelbaset Hamza, Ph.D.</Card.Title>
@@ -119,7 +119,7 @@ class Team extends Component{
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-dark"><a href='https://cs.appstate.edu/~hamzaas/' target='_blank'>Read More</a></Button>
+                                    <Button variant="outline-dark"><a href='https://cs.appstate.edu/~hamzaas/' target='_blank' rel="noreferrer">Read More</a></Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
@@ -144,10 +144,10 @@ class Team extends Component{
                                         <Card.Body>
                                             <Container className='d-flex justify-content-md-center'>
                                                 <div class="avatar-big">
-                                                    <img class="avatar-img rounded-circle" src={Feng} />
+                                                    <img class="avatar-img rounded-circle" src={Feng} alt='Tinghao Feng'/>
                                                 </div>
                                             </Container>
-                                            <Card.Title className='mt-4'>Dr. Tinghao Fengm, Ph.D.</Card.Title>
+                                            <Card.Title className='mt-4'>Dr. Tinghao Feng, Ph.D.</Card.Title>
                                             <Card.Text>
                                                 Dr. Feng is specialized in visulation. He is working on developing
                                                 an extensive visualization tool to analyze the data.
@@ -178,7 +178,7 @@ class Team extends Component{
                                         <Card.Body>
                                             <Container className='d-flex justify-content-md-center'>
                                                 <div class="avatar-big">
-                                                    <img class="avatar-img rounded-circle" src={Chris} />
+                                                    <img class="avatar-img rounded-circle" src={Chris} alt = 'Chris Campell'/>
                                                 </div>
                                             </Container>
                                             

@@ -5,7 +5,7 @@ import $ from 'jquery';
 import { Card, Row, Button } from 'react-bootstrap'
 import IframeResizer from 'iframe-resizer-react'
 
-class BeeLive extends Component {
+class Dashboard extends Component {
 
     // constructor() {
     //     super();
@@ -43,4 +43,4 @@ class BeeLive extends Component {
     }
 }
 
-export default BeeLive
+export default Dashboard
