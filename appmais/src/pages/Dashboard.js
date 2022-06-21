@@ -1,8 +1,4 @@
 import React, { Component, PropTypes } from 'react'
-import ReactDOM from 'react-dom'
-import $ from 'jquery'; 
-
-import { Card, Row, Button } from 'react-bootstrap'
 import IframeResizer from 'iframe-resizer-react'
 
 class Dashboard extends Component {
