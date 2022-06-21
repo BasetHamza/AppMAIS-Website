@@ -9,6 +9,7 @@ import Dashboard from '../pages/Dashboard'
 import Publications from '../pages/Research/Publications'
 import Archive from '../pages/BeeStream/Archive'
 import Overview from '../pages/Research/Overview'
+import Note from '../pages/Note'
 
 class App extends Component {
 
@@ -26,6 +27,8 @@ class App extends Component {
                         <Route path='/beestream/archive' element = {<Archive />}/>
 
                         <Route path='/dashboard' element = {<Dashboard />}/>
+
+                        <Route path='/note' element = {<Note />}/>
                         
                     </Routes>
                 <Footer />
